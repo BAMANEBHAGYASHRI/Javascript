@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Links</title>
+    </head>
+    <body>
+            <!-- Link syntax -->
+        <a href="http://www.google.com">Google</a> <br><br>
+
+            <!-- target attributes -->
+
+             <!-- _self : opens the documents in the same window  -->
+            <a href="http://www.google.com" target="_self">Google</a>
+
+            <!-- _blank : opens the documents in a new window or tab -->
+            <a href="http://www.instagram.com" target="_blank">Instagram</a> <br><br>
+
+            <!--  use an image as a link-->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCcRCspGPES_Y-jWmRtkMrAfp18-jPle8HT2ub_hK77IY3UIclqO7SxMg_rbZW9D27Y-E&usqp=CAU">
+
+            
+
+
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>list</title>
+</head>
+<body>
+    <!-- ordered list- an ordered lists starts with the <ol> tag. 
+        each list item strts with the <li> tag. -->
+    <ol type="A">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>   
+    <ol type="a">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>   
+    <ol type="i">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>   
+    <ol type="I">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>  
+    <ol type="1" start="10">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ol>  
+
+        
+    <!-- unordered list- an unordered lists starts with the <ul> tag. 
+        each list item strts with the <li> tag. -->
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>   
+
+        <!-- Description list -->
+    <dl>
+        <li><dt>100</dt></li>
+        <dd>one hundread</dd>
+        <li><dt>101</dt></li>
+        <dd>one hundread one</dd>
+        <li><dt>102</dt></li>
+        <dd>one hundread two</dd>
+        <li></li><dt>103</dt></li>
+        <dd>one hundread three</dd>
+       <li> <dt>104</dt></li>
+        <dd>one hundread four</dd>
+        <li><dt>105</dt></li>
+        <dd>one hundread five</dd>
+    </dl>    
+
+</body>
+</html>

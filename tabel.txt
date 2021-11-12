@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<title>calnder</title>
+</head>
+<body>
+    <!-- tabel =  a tabel in html consists of tabel cells inside rows and columns
+    syntax tabel border="height style" -->
+    <!-- tr= tabel row is defined -->
+    <!-- th= tabel header is defined -->
+    <!-- td= tabel cell/data is defined -->
+    <!--  rowspan attribute= in hrml specifies the number of row a cell should span.
+    syntax <td rowspan="value">value content</td> -->
+    <!-- colspan attribute= specifies the number of columns a cell should span.
+    syntax <td colspan="value">value content</td> -->
+	
+	<table border="1px soild">
+		<tr>
+			<th>id</th>
+			<th>day</th>
+			<th>month</th>
+			<th>year</th>
+        </tr>
+		<tr>
+			<td>1</td>
+			<td>14</td>
+			<td rowspan="4">1</td>
+			<td rowspan="4">2021</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>16</td>
+			
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>17</td>
+		</tr>
+	</table>
+</html>

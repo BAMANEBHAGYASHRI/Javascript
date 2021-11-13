@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>File Path</title>
+</head>
+<body>
+    <!-- .. = close file -->
+    <!-- /  = start/open file -->
+    
+    <!--the "picture.jpg" file is locted in the sme folder s the current -->
+    <img src="picture.jpg">
+
+    <!-- the  "picture .jpg" file is locted in the images folder in the current folder -->
+    <img src="images/picture.jpg">
+
+    <!--the "picture.jpg" file is located in the images folder at the root of the current web-->
+    <img src="/images/picture.jpg">
+
+    <!-- the "picture.jpg" file is locted in the folder one level up from the current folder -->
+    <img src="../picture.jpg">
+</body>
+</html>

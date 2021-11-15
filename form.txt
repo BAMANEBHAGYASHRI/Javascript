@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <!-- form element-The HTML <form> element is used to create an HTML form for user input -->
+    <!--action attribute- The "action" attribute defines the action to be performed when the form is submitted. -->
+     <!-- input-An <input> element can be displayed in many ways, depending on the type attribute. -->
+     <!--label-The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.  -->
+
+    <form action="save.php">
+        <label for="name">NAME :</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="rollno">ROLL NO :</label>
+        <input type="number"><br><br>
+
+        <label for="email">EMAIL :</label>
+        <input type="text"><br><br>
+
+        <label for="birth date">DOB :</label>
+        <input type="date"><br><br>
+        <!-- RADIO BUTTON-Radio buttons let a user select ONE of a limited number of choices. -->
+        <label for="gender">GENDER:</label>
+        <input type="radio" name="gender" value="male"><label>Male</label>
+        <input type="radio" name="gender" value="female"><label>Female</label><br><br>
+        <!--SELECT- The <select> element defines a drop-down list: -->
+        <label for="qualifaction">QUALIFACTION :</label>
+        <select >
+            <option value="javascript">JAVASCRIPT</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select><br><br>
+        <!-- CHECKBOX-Checkboxes let a user select ZERO or MORE options of a limited number of choices. -->
+        <label for="favourite">FAVOUROTE DISH:</label><br>
+        <input type="checkbox"><label for="panipuri">PANI-PURI</label><br>
+        <input type="checkbox"><label for="pavbhaji">PAV-BHAJI</label><br>
+        <input type="checkbox"><label for="panir">PANIR</label><br><br>
+
+        <!-- SUBMIT-The <input type="submit"> defines a button for submitting the form data to a form-handler. -->
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>

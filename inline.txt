@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>inline</title>
+</head>
+    <!-- inline- by using the "style" attribute inside HTML element -->
+    <!-- style- defines style information for an document -->
+    <!-- pre- defines performed text -->
+<body style="border:navy;
+            background-color: orchid;
+            background-repeat: no-repeat;
+            background-attachment: scroll;">
+    <p>DREAM BIGG </p>
+    <pre>
+
+
+
+
+
+
+
+
+
+
+    </pre>
+</body>
+</html>

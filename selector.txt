@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>selctors</title>
+    <style>
+        P{
+            text-align: center;
+            color: navy;
+        }
+        #abc{
+            text-align: center;
+            color: orange;
+        }
+        .xyz{
+            text-align: center;
+            color: orchid;
+        }
+        div>h1{
+            text-align: center;
+            color: powderblue;
+        }
+        span p{
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- TAG SELCTOR -->
+    <p>DREAM BIG (:</p>
+
+    <!-- ID SELECTOR- use to id attributes of an HTML element to selsect a specific element -->
+     <p id="abc">DREAM BIG (:</p>
+    
+     <!-- CLASS SELECTOR- to select element with a specific class write a perid(.)charchter the class name  -->
+     <p class="xyz">DREAM BIG (:</p>
+     <p class="xyz">DREAM BIG (:</p> 
+
+     <!-- child-all elements that are the childern of a specified element -->
+    <div>
+        <h1>DREAM BIG (:</h1>
+        <h1>DREAM BIG (:</h1>
+     </div>
+     <!--DESENDANT SELECTOR- matches all element that are desendant of a specified element-->
+     <span>
+         <p>DREAM BIG (:</p>
+         <p>DREAM BIG (:</p>
+     </span>
+</body>
+</html>

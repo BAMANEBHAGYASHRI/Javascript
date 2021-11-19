@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <TItle>CSS BOXSIZING</TItle>
+        <!--BOX SIZING-- The CSS box-sizing property allows us to include the padding and border in an element's total width and height. -->
+        <!-- CONTENT- the concent of the box were text and images apper -->
+        <!-- PADDING - clears an area around the  content the padding is transparent -->
+        <!-- BORDER- a border that goes around the padding and content -->
+        <!-- MARGIN- clears an area outside the borde the margin is transparent -->
+        <style>
+            h1{
+                border: 1px solid;
+                margin: auto;
+                padding: 40px;
+                width: 300px;
+            }
+            #div1{
+                border: 1px solid red;
+                width: 400px;
+                height: 400px;
+                margin: auto;
+                text-align: center;
+                
+            }
+
+            #div2{
+                border: 1px solid green;
+                width: 200px;
+                height: 200px;
+                margin: 100px;
+                text-align: center;
+            }
+            #div3{
+                border: 2px solid red;
+                width: 50px;
+                margin: auto;
+                text-align: center;
+            }
+            #div4{
+                border: 2px solid red;
+                width: 200px;
+                padding: 100px;
+                text-align: center;
+            
+            }
+            #div5{
+                border: 2px solid green;
+                width: 200px;
+                height: 200px;
+                text-align: center;
+            }
+          
+            
+        </style>
+    </head> 
+    <body>
+        <h1>GITHUB</h1><br><br>
+
+        <div id="div1">
+            <div id="div2">
+                <p>HTML5</p>
+            </div>
+        </div><br><br>
+
+        <div id="div3">
+            <p>CSS3</p>
+        </div><br><br>
+
+        <div id="div4">
+            <div id="div5">
+                <p>JAVASCRIPT</p>
+            </div>
+        </div><br><br>
+        
+
+        
+    </body>
+</html>

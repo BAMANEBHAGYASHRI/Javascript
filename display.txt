@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>display</title>
+   
+        <style>
+        .display{
+            border: 1px solid indianred;
+            width: 50%;
+            height: 100px;
+         }
+         .inline{
+             border: 1px solid gold;
+             display: inline;
+
+         }
+         .inline-block{
+             border: 2px solid grey;
+             /* width: 50px;
+             height:50px; */
+             display: inline-block;
+         }
+         #abc1{
+             border: 1px solid purple;
+             width: 100px;
+             height: 100px;
+         }
+         #abc2{
+             border: 2px solid purple;
+             width: 100px;
+             height: 100px;
+             display: none;
+         }
+         #xyz1,#xyz2,#xyz3{
+             border: 1px solid blueviolet;
+             width: 50%;
+             height: 100px;
+             display: inline-block;
+         }
+         #xyz2{
+             visibility: hidden;
+         }
+         
+    </style>
+</head>
+<body>
+    <h2>block display</h2>
+    <div class="display"> this is div 1</div>
+    <div class="display"> this is div 2</div>
+    <h2>inline display</h2>
+    <div class="inline">this is div 1</div>
+    <div class="inline">this is div 2</div>
+    <h2>inline-block display</h2>
+    <div class="inline-block">this is div 1</div>
+    <div class="inline-block">this is div 2</div>
+    <h2>none display</h2>
+    <div id="abc1"></div>
+    <div id="abc2"></div>
+    <h2>visibilty</h2>
+    <div id="xyz1"></div>
+    <div id="xyz2"></div>
+    <div id="xyz3"></div>
+    
+</body>
+</html>
+<!-- DISPLAY-the display property sepcifiers the display behaviour of an element
+        SYNTAX- display:value -->
+    <!-- INLINE DISPLAY -display an element as an inline element any  height & width 
+            property will have no effect -->
+    <!--BLOCK DISPLAY-display an elements as a block elment it starts on a new
+                line ,and takes up the whole width  -->
+    <!-- INLINE-BLOCK DISPLAY-display an element as an inline level block container.
+                    the element itself frommated as an inline elment but you can apply height &width values -->
+    <!-- NONE- the elment is completely removed -->
+    <!-- VISIBILTY-the visibility property specifics whethweor not  an element is visible
+        syntax- visibilty-hidden; -->
+
+    <!-- DIFFRENT BETWEEN  BLOCK,INLINE,INLIVE-BLOCK
+        1.block display-1.new line 2.full width 3.height and width
+        2.inline display-1.not new start 2.no full width 3.no height and width
+        3.inline-block display-1.not new line start 2.not full width 3.height & width-->
+        

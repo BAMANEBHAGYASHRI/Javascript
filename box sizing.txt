@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            border: 1px solid;
+            padding: 50px;
+            margin: 50px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello</div>
+</body>
+</html>
+<!-- The  box-sizing property allows us to include the padding and border in an element's total width and height. -->

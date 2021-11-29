@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
     <head>
-        <TItle>CSS BOXSIZING</TItle>
-        <!--BOX SIZING-- The CSS box-sizing property allows us to include the padding and border in an element's total width and height. -->
+        <TItle>CSS BOX MODEL</TItle>
+        <!--BOX model-- The CSS box-sizing property allows us to include the padding and border in an element's total width and height. -->
         <!-- CONTENT- the concent of the box were text and images apper -->
         <!-- PADDING - clears an area around the  content the padding is transparent -->
         <!-- BORDER- a border that goes around the padding and content -->

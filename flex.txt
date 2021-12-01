@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>stylesheet</title>
+    <style>
+        .flex-container{
+            
+            background-color: indianred;
+            display: flex;
+            /* flex-direction:row; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow: row-reverse; */
+            /* justify-content: space-between; */
+            height: 400px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            /* align-content: flex-end; */
+
+        }
+        .flex-child{
+            background-color: wheat;
+            margin: 20px;
+            padding: 20px;
+            width: 100px;
+           text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+   <div class="flex-container">
+       <div class="flex-child">one</div>
+       <div class="flex-child">two</div>
+       <div class="flex-child">three</div>
+       <div class="flex-child">four</div>
+       <div class="flex-child">five</div>
+       <div class="flex-child">six</div>
+       <div class="flex-child">seven</div>
+       <div class="flex-child">eight</div>  
+   </div>
+    
+</body>
+</html>
+<!--FLEX- The flex property sets the flexible length on flexible items -->
+<!-- FLEX-DIRECTION=The flex-direction property specifies the direction of  the flexible items.
+SYNTAX-flex-direction: row|row-reverse|column|column-reverse|initial|inherit; -->
+<!-- FLEX-WRAP=The flex-wrap property specifies whether the flexible items should wrap or not.
+    SYNTAX=flex-wrap: nowrap|wrap|wrap-reverse -->

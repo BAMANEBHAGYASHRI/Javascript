@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          #abc{
+              border:1px solid;
+              display:flex;
+            
+          } 
+          #abc>div{
+              border:1px solid;
+              height:100px;
+              flex:1;
+          }
+          
+          @media screen and (max-width: 500px){
+              #abc{
+                  flex-direction:column;
+              }
+          }
+        </style>
+    </head>
+    <body>
+        <div id="abc">
+            <div>Jayram Patil</div>
+            <div>Jayram Patil</div>
+            <div>Jayram Patil</div>
+            <div>Jayram Patil</div>
+            <div>Jayram Patil</div>
+            <div>Jayram Patil</div>
+        </div>
+    </body>
+</html>
+<!-- The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+syntax=@media not|only mediatype and (expressions) {
+  CSS-Code;
+} -->

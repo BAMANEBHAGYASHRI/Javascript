@@ -1,0 +1,19 @@
+	****HTML FILE****
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="frist.js"></script>
+</head>
+<body>
+    <h1>Hellooo Javascript</h1>
+</body>
+</html>
+
+	***JS FILE****
+alert("Hello! I am an alert box!!")
+console.log("hiee from console")
+document.write("hieee from doc")
+
+<!-- alret()method-The alert() method displays an alert box with a specified message and an OK button.
+    console.log()-console.log() method writes a message to the console.
+document.write--The write() method writes HTML expressions or JavaScript code to a document.>

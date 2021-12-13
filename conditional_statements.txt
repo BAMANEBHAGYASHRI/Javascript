@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>if_else</title>
+</head>
+<body>
+    <!-- // IF-ELSE CONDITION -->
+    <script>
+    
+        let i=prompt("Enter Your ATM Password");
+        if(i=="1234"){
+           alert("correct 1st password");
+        }
+        else if(i=="5678"){
+           alert("correct 2nd password");
+        }
+        else{
+           alert("wrong password");
+        }
+    </script>
+    <!-- ELSE-IF CONDITION -->
+    <p id="demo1"></p>
+    <script>
+        const time = new Date().getHours();
+        let greeting;
+        if (time < 10) {
+          greeting = "Good morning";
+        } else if (time < 20) {
+          greeting = "Good day";
+        } else {
+          greeting = "Good evening";
+        }
+        document.getElementById("demo1").innerHTML = greeting;
+        </script>
+        <!-- SWITCH CASE CONDITION -->
+        
+        <p id="demo"></p>
+        
+        <script>
+        let day;
+        switch (new Date().getDay()) {
+          case 0:
+            day = "Sunday";
+            break;
+          case 1:
+            day = "Monday";
+            break;
+          case 2:
+            day = "Tuesday";
+            break;
+          case 3:
+            day = "Wednesday";
+            break;
+          case 4:
+            day = "Thursday";
+            break;
+          case 5:
+            day = "Friday";
+            break;
+          case  6:
+            day = "Saturday";
+        }
+        document.getElementById("demo").innerHTML = "Today is " + day;
+        </script>
+        
+        
+        
+</body>
+</html>
+<!-- IF-Use if to specify a block of code to be executed, if a specified condition is true
+    ELSE-Use else to specify a block of code to be executed, if the same condition is false
+    ELSE-IF=Use else if to specify a new condition to test, if the first condition is false
+    SWITCH=Use switch to specify many alternative blocks of code to be executed-->

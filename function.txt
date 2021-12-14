@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>function</title>
+</head>
+<body>
+    <script>
+        function book(name,author){
+            console.log(name,author);
+        }
+        book("algebra","shruti");
+
+
+        //parameters passing to arguments
+        function book(name,author="shruti"){
+            console.log(name + " "+author);
+        }
+        book("algebra");
+
+    </script>
+</body>
+</html>
+<!-- A JavaScript function is a block of code designed to perform a particular task. -->

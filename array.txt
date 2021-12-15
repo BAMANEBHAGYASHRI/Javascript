@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>array</title>
+</head>
+<body>
+    <script>
+        let a=["shruti","bhagyashri","shivani","payal"];
+        a.push("sakshi");            //adding the index
+        //a.pop();                     //remove the index
+        a.unshift("shreya","sonali");    //adding the index
+        a.shift();                         //remove the index
+        console.log(a);
+    </script>
+</body>
+</html>

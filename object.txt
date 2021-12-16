@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>object</title>
+</head>
+<body>
+    <script>
+        let obj={
+            studentname:"shruti",
+            studentid:101,
+            studentstd:"co-ty",
+        };
+        console.log(obj.studentname,studentid,);
+    </script>
+</body>
+</html>
